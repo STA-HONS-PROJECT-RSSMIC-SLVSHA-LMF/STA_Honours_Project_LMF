@@ -1,5 +1,5 @@
 # STA Honours Project: LMF Model Validation and Long-Range Memory Analysis
-This repository stores the R scripts used by Michael Ross and Shane Silverman for their STA_Honours Project on order-flow and long memory in a simulated financial market. The scripts analyse long-range memory in high-frequency trade data from the Johannesburg Stock Exchange (JSE), specifically focusing on validating the Lillo, Mike, and Farmer (LMF) hypothesis. 
+This repository stores the R scripts used by Michael Ross and Shane Silverman for their UCT Statistics Honours Project on order-flow and long memory in a simulated financial market. The scripts analyse long-range memory in high-frequency trade data from the Johannesburg Stock Exchange (JSE), specifically focusing on validating the Lillo, Mike, and Farmer (LMF) hypothesis. 
 
 The central goal is to test the relationship ($\gamma \approx \alpha - 1$) between the power-law exponent ($\gamma$) of the trade-sign autocorrelation function (ACF), and the power-law exponent ($\alpha$) of the distribution of "metaorder" sizes.
 
