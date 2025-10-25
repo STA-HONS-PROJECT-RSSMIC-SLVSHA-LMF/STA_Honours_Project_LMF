@@ -39,7 +39,8 @@ First, you must process your raw data into the master workspace file.
    Input: Raw .csv files in ticker subfolders.
    
    Output: JSE_Top40_new.csv
-3. `06_LMF_Validation_load_and_prep_data.R`
+   
+2. `06_LMF_Validation_load_and_prep_data.R`
    
    What it does: Loads the massive JSE_Top40_new.csv into a data.table (DT), performs final type conversions, and saves the object as an .RData file for much faster loading in the future.
 
@@ -53,7 +54,7 @@ These scripts test the $\gamma \approx \alpha - 1$ hypothesis on the prepared da
 
       This is a library. You do not run this script directly. It is automatically loaded (source()-ed) by scripts 07 and 08.
 
-2. `07_LMF_Validation_analysis_full_year.R`
+1. `07_LMF_Validation_analysis_full_year.R`
    
       What it does: Performs the main analysis on a per-stock, full-year basis.
 
@@ -73,7 +74,7 @@ These scripts test the $\gamma \approx \alpha - 1$ hypothesis on the prepared da
       
       Output: Plots displayed in the R plots pane.
 
-3. `08_LMF_Validation_analysis_monthly.R`
+2. `08_LMF_Validation_analysis_monthly.R`
    
       What it does: Performs a more granular version of the analysis on a per-stock, per-month basis. This generates many more data points.
       
